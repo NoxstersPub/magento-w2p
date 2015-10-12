@@ -314,6 +314,11 @@
         this._rerouteClicks();
     };
 
+    // Custom events trigger by the uploaded
+    AjaxUpload.Events = {
+        UPLOAD_COMPLETE: 'ajax_upload:complete'
+    };
+
     // assigning methods to our class
     AjaxUpload.prototype = {
         setData: function (data) {
@@ -619,6 +624,12 @@
                     response = doc;
                 }
 
+                jQuery(document).trigger(AjaxUpload.Events.UPLOAD_COMPLETE, {
+                    instance: self,
+                    file: file,
+                    response: response,
+                    iframe: iframe
+                });
                 settings.onComplete.call(self, file, response);
 
                 // Reload blank page, so that reloading main page
