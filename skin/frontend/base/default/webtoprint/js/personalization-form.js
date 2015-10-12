@@ -951,7 +951,7 @@ function personalization_form($) {
                 $(this._button) //Choose button
                     .addClass('disabled')
                     .next() //Cancel button
-                    .addClass('disabled')
+                    .removeClass('disabled')
                     .next() //Spinner
                     .show();
 
