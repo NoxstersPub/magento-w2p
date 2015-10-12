@@ -22,5 +22,3 @@ foreach ($attribute_names as $name) {
   $attribute->addData($data);
   $attribute->save();
 }
-
-?>

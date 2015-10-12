@@ -17,5 +17,3 @@ class ZetaPrints_WebToPrint_Model_System_Config_Backend_ZetaPrintsUrl
     return parent::_beforeSave();;
   }
 }
-
-?>

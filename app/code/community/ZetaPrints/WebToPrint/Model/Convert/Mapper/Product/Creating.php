@@ -334,5 +334,3 @@ class ZetaPrints_WebToPrint_Model_Convert_Mapper_Product_Creating
       $this->notice($message);
   }
 }
-
-?>

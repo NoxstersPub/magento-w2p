@@ -30,5 +30,3 @@ class ZetaPrints_WebToPrint_Model_System_Config_Source_TemplateDeletingBehaviour
     return $this->_options;
   }
 }
-
-?>

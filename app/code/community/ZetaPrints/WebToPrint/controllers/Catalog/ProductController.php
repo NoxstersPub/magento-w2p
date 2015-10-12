@@ -63,5 +63,3 @@ class ZetaPrints_WebToPrint_Catalog_ProductController extends Mage_Adminhtml_Cat
   }
 
 }
-
-?>

@@ -193,4 +193,3 @@ class ZetaPrints_WebToPrint_PreviewController
     echo json_encode('OK');
   }
 }
-?>

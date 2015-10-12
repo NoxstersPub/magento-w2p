@@ -9,5 +9,3 @@ class ZetaPrints_WebToPrint_Model_System_Config_Backend_Apikey
     return parent::_beforeSave();
   }
 }
-
-?>

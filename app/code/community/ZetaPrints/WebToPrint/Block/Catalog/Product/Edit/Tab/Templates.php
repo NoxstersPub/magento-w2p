@@ -113,5 +113,3 @@ class ZetaPrints_WebToPrint_Block_Catalog_Product_Edit_Tab_Templates extends Mag
   }
 
 }
-
-?>

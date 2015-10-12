@@ -113,4 +113,3 @@ class ZetaPrints_WebToPrint_UploadController
     echo json_encode($image);
   }
 }
-?>

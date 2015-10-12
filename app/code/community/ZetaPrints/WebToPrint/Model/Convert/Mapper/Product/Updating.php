@@ -248,5 +248,3 @@ class ZetaPrints_WebToPrint_Model_Convert_Mapper_Product_Updating extends  Mage_
       $this->notice($message);
   }
 }
-
-?>

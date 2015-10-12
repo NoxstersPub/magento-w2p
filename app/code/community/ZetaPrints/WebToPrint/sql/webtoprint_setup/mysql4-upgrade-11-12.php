@@ -57,5 +57,3 @@ $installer->addAttributeToGroup(
 );
 
 $installer->endSetup();
-
-?>

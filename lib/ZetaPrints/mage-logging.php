@@ -12,5 +12,3 @@ function _zetaprints_debug ($msg = null) {
 
   Mage::log("$callee_name: $msg");
 }
-
-?>

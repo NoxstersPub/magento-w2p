@@ -36,5 +36,3 @@ $profile_model->setName($profile_name)
   ->setGuiData(false)
   ->setDataTransfer('interactive')
   ->save();
-
-?>

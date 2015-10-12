@@ -51,5 +51,3 @@ $installer->addAttribute('customer', 'zetaprints_password',
     'position'          => 1 ));
 
 $installer->endSetup();
-
-?>

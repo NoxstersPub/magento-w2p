@@ -23,5 +23,3 @@ class ZetaPrints_WebToPrint_Model_Quote_Item extends Mage_Sales_Model_Quote_Item
     return parent::compare($item);
   }
 }
-
-?>

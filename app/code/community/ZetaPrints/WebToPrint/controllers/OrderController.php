@@ -6,7 +6,7 @@ class ZetaPrints_WebToPrint_OrderController
 
   public function completeAction () {
     $request = $this->getRequest();
-  
+
     if (!$request->has('item'))
       return;
 
@@ -23,4 +23,3 @@ class ZetaPrints_WebToPrint_OrderController
                      array('order_id' => $item->getOrder()->getId()));
   }
 }
-?>

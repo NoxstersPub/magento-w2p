@@ -21,5 +21,3 @@ $installer->run("
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;" );
 
 $installer->endSetup();
-
-?>

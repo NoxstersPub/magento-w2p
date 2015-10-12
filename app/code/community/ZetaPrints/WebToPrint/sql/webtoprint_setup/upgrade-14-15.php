@@ -52,5 +52,3 @@ foreach ($profiles as $profile) {
     ->setDataTransfer('interactive')
     ->save();
 }
-
-?>

@@ -35,4 +35,3 @@ class ZetaPrints_WebToPrint_ImageController
     echo zetaprints_get_edited_image_url($url, $key, $params);
   }
 }
-?>

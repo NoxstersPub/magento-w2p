@@ -56,4 +56,3 @@ class ZetaPrints_WebToPrint_ThumbnailController
     }
   }
 }
-?>

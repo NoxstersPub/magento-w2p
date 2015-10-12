@@ -27,5 +27,3 @@ $installer->addAttribute('catalog_product', 'webtoprint_template',
 //$installer->removeAttribute('catalog_product', 'webtoprint_template');
 
 $installer->endSetup();
-
-?>
