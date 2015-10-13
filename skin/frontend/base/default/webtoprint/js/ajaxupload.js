@@ -426,7 +426,9 @@
                 // We use visibility instead of display to fix problem with Safari 4
                 // The problem is that the value of input doesn't change if it
                 // has display none when user selects a file
-                input.parentNode.style.visibility = 'hidden';
+                if (input.parentNode) {
+                    input.parentNode.style.visibility = 'hidden';
+                }
 
             });
 
@@ -624,12 +626,14 @@
                     response = doc;
                 }
 
-                jQuery(document).trigger(AjaxUpload.Events.UPLOAD_COMPLETE, {
-                    instance: self,
-                    file: file,
-                    response: response,
-                    iframe: iframe
-                });
+                if (window.jQuery) {
+                    jQuery(document).trigger(AjaxUpload.Events.UPLOAD_COMPLETE, {
+                        instance: self,
+                        file: file,
+                        response: response,
+                        iframe: iframe
+                    });
+                }
                 settings.onComplete.call(self, file, response);
 
                 // Reload blank page, so that reloading main page
